@@ -7,8 +7,8 @@ app.get('/', (req, res) => {
   res.send('We in this bitch!');
 });
 
-app.get("/api", (req, res) => {
-  res.send("Redirect");
+app.get('/api', (req, res) => {
+  res.send('Redirect');
 });
 
 app.listen(port, (err) => {
